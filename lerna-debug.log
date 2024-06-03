@@ -1,0 +1,10 @@
+17 error Error: Command failed with exit code 1: git remote update
+17 error error: RPC failed; curl 16 Error in the HTTP2 framing layer
+17 error fatal: expected flush after ref listing
+17 error     at makeError (E:\系统默认\test\cli-lib\node_modules\execa\lib\error.js:59:11)
+17 error     at module.exports.sync (E:\系统默认\test\cli-lib\node_modules\execa\index.js:186:17)
+17 error     at Object.execSync (E:\系统默认\test\cli-lib\node_modules\lerna\dist\index.js:142:31)
+17 error     at updateRemote (E:\系统默认\test\cli-lib\node_modules\lerna\dist\index.js:7784:18)
+17 error     at isBehindUpstream (E:\系统默认\test\cli-lib\node_modules\lerna\dist\index.js:7774:3)
+17 error     at VersionCommand.initialize (E:\系统默认\test\cli-lib\node_modules\lerna\dist\index.js:8065:57)
+17 error     at VersionCommand.runCommand (E:\系统默认\test\cli-lib\node_modules\lerna\dist\index.js:1861:36)
