@@ -1,0 +1,33 @@
+{
+  "name": "@cli-lib3/cli1",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "WangDi <1904890413@qq.com>",
+  "homepage": "https://github.com/JiaLouLu/cli-lib#readme",
+  "license": "ISC",
+  "main": "lib/cli1.js",
+  "bin": {
+    "cli-lib3": "bin/index.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JiaLouLu/cli-lib.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/cli1.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/JiaLouLu/cli-lib/issues"
+  },
+  "dependencies": {
+    "@cli-lib3/utils": "^0.0.1",
+    "npmlog": "^7.0.1"
+  }
+}

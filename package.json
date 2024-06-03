@@ -8,7 +8,12 @@
   },
   "keywords": [],
   "author": "",
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "core/*",
+    "commands/*",
+    "models/*",
+    "utils/*"
+  ],
   "license": "ISC",
   "dependencies": {
     "lerna": "^8.1.3"

@@ -10,6 +10,9 @@
     "lib": "lib",
     "test": "__tests__"
   },
+  "bin": {
+    "cli-lib3-utils": "./lib/utils.js"
+  },
   "files": [
     "lib"
   ],

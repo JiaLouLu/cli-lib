@@ -19,5 +19,10 @@
   "scripts": {
     "test": "node ./__tests__/core.test.js"
   },
+  "dependencies": {
+    "@cli-lib3/utils": "file:../utils/utils",
+    "lerna": "^8.1.3",
+    "npmlog": "^7.0.1"
+  },
   "gitHead": "fbcdf10d4686af9bae252ca05fb5ae47bea1f019"
 }
